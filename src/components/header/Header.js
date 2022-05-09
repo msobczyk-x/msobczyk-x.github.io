@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 import Typewriter from 'typewriter-effect';
 import ButtonAnimatedHeader from './Btn';
 import {useState} from 'react';

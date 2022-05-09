@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Icon, Transition } from 'semantic-ui-react';
-import './btn.css'
+import './btn.scss'
 
 
 

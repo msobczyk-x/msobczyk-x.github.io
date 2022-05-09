@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "./About.css";
+import "./About.scss";
 import { Image, Grid, Progress, Button } from "semantic-ui-react";
 import {
 	Animator,

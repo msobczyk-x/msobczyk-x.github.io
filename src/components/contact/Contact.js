@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import "./Contact.scss";
 import { Form, Container } from "semantic-ui-react";
 import {
 	Animator,
@@ -12,8 +12,6 @@ import Footer from "../footer/Footer";
 const Contact = () => {
 	return (
 		<div className="Contact">
-
-
 			<ScrollContainer>
 				<ScrollPage page={3}>
 					<Animator animation={batch(FadeIn())}>

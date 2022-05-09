@@ -1,5 +1,5 @@
 import React from "react";
-import "./Work.css";
+import "./Work.scss";
 import { Container, Grid, GridColumn, Image, Reveal } from "semantic-ui-react";
 import {
 	Animator,
