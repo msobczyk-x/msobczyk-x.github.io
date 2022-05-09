@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.scss";
-import { Form, Container } from "semantic-ui-react";
+import { Form, Container, Button, ButtonGroup } from "semantic-ui-react";
 import {
 	Animator,
 	ScrollContainer,
@@ -8,11 +8,11 @@ import {
 	batch,
 	FadeIn,
 } from "react-scroll-motion";
-import Footer from "../footer/Footer";
+
 const Contact = () => {
 	return (
 		<div className="Contact">
-			<ScrollContainer>
+			<ScrollContainer snap="none">
 				<ScrollPage page={3}>
 					<Animator animation={batch(FadeIn())}>
 						<h1>Contact</h1>
@@ -33,9 +33,39 @@ const Contact = () => {
 							</Form>
 						</Container>
 					</Animator>
+					<div className="Footer">
+			<h4>msobczyk | Portfolio 2022</h4>
+			<ButtonGroup>
+				<Button
+					circular
+					color="github"
+					icon="github"
+					onClick={() => {
+						window.location.href = "https://github.com/msobczyk-x";
+					}}
+				/>
+				<Button
+					circular
+					color="linkedin"
+					icon="linkedin"
+					onClick={() => {
+						window.location.href = "https://linkedin.com/in/maciej-sobczyk";
+					}}
+				/>
+				<Button
+					circular
+					color="instagram"
+					icon="instagram"
+					onClick={() => {
+						window.location.href = "https://instagram.com/sobczyk.foto/";
+					}}
+				/>
+			</ButtonGroup>
+		</div>
 				</ScrollPage>
+				
 			</ScrollContainer>
-			<Footer />
+			
 		</div>
 	);
 };

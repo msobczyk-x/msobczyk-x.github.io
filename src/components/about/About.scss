@@ -1,12 +1,17 @@
+@import '../../index.scss';
+
 .About {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: $background-color;
 
-
+    h1 {
+        margin: 8rem 0;
+    }
 
 }
-.About h1 {
-    margin: 8rem 0;
-}
+
+
+

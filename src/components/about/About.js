@@ -13,7 +13,7 @@ const About = () => {
 	const AboutRef = useRef(null);
 	return (
 		<div className="About" id="About" ref={AboutRef}>
-			<ScrollContainer>
+			<ScrollContainer snap="proximity">
 				<ScrollPage page={1}>
 					<Animator animation={batch(FadeIn())}>
 						<h1>About me</h1>

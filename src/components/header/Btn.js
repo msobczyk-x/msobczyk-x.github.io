@@ -7,7 +7,7 @@ import './btn.scss'
 const ButtonAnimatedHeader = () => (
   <Transition transitionOnMount={true} animation='scale' duration={500} >
       <div className='btn'>
-        <Button animated onClick={() => {
+        <Button animated className='button-container' onClick={() => {
           window.scrollTo(
             {
               top: 1000,

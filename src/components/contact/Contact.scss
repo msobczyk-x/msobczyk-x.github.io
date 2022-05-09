@@ -1,7 +1,24 @@
+@import '../../index.scss';
 .Contact {
 	min-height: 100vh;
+	background-color: $background-color;
+	
 
-
+	h1 {
+        margin: 8rem 0;
+    }
 }
 
 
+.Footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-height: 15vh;
+	background-color: $light-blue-color;
+	color: $text-color;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

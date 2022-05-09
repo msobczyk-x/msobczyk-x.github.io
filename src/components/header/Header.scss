@@ -1,5 +1,7 @@
+@import '../../index.scss';
+
 .App-header {
-    background-color: #282c34;
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,6 +9,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+
   }
   
   .btn {
@@ -16,5 +19,18 @@
     margin-top: 50px;
     
   }
+
+  .ui.button {
+    background-color: $background-color;
+    color: $text-color;
+  }
   
-  
+  .particles-bg-canvas-self{
+    background: $dark-blue-color;
+    color: $background-color;
+    z-index: -1;
+  }
+
+  .typewriter-wrapper {
+    color: $background-color;
+  }
